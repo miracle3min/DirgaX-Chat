@@ -1,5 +1,8 @@
 {
   "installCommand": "bun install",
-  "buildCommand": "NODE_OPTIONS=--max-old-space-size=6144 bun run build:next:raw",
-  "framework": "nextjs"
+  "buildCommand": "bun run build:next:raw",
+  "framework": "nextjs",
+  "git": {
+    "deploymentEnabled": false
+  }
 }
